@@ -1,0 +1,68 @@
+.button {
+  border-radius: 3px;
+  color: $primary-color;
+  font-size: 15px;
+  font-weight: 700;
+  line-height: 19px;
+  text-align: center;
+  cursor: pointer;
+}
+
+.button-primary {
+  border: solid 1px #d2021d;
+  background: linear-gradient(180deg, #EA053A, #D0021B);
+  box-shadow: 0px 1px 4px rgba(0,0,0,0.22);
+  padding: .5em 2em;
+  transition: $transition;
+
+  &:hover,
+  &:focus,
+  &:active {
+    background: linear-gradient(180deg, #D0021B, #EA053A);
+  }
+}
+
+.button-like {
+  border: solid 1px #5cb43b;
+  background: linear-gradient(180deg, #66C943, #369920);
+  box-shadow: 0px 1px 4px rgba(0,0,0,0.22);
+  padding: .5em 2em;
+  transition: $transition;
+  width: 7.5em;
+
+  &:hover,
+  &:focus,
+  &:active {
+    background: linear-gradient(180deg, #369920, #66C943);
+  }
+}
+
+.button-dislike {
+  border: solid 1px #a7b4ba;
+  background: #a7b4ba;
+  box-shadow: 0px 1px 4px rgba(0,0,0,0.22);
+  padding: .5em 2em;
+  transition: $transition;
+  width: 7.5em;
+
+  &:hover,
+  &:focus,
+  &:active {
+    background: #8e989c;
+  }
+}
+
+.button-submit {
+  border: solid 1px #D1D3D5;
+  background: #D1D3D5;
+  color: #d0021b;
+  box-shadow: 0px 1px 4px rgba(0,0,0,0.22);
+  padding: .5em 2em;
+  transition: $transition;
+
+  &:hover,
+  &:focus,
+  &:active {
+    background: #a7b4ba;
+  }
+}

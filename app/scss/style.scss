@@ -1,0 +1,48 @@
+@import url('https://fonts.googleapis.com/css?family=Abril+Fatface|Muli&display=swap');
+@import 'partials/vars';
+@import 'partials/buttons';
+
+body {
+  overflow-x: hidden;
+  position: relative;
+}
+
+body, * {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Muli', sans-serif;
+  font-size: 15px;
+  color: $secondary-color;
+}
+
+h2 {
+  font-size: 26px;
+  font-weight: 700;
+  line-height: 33px;
+  margin: 1em 0;
+}
+
+h3 {
+  color: #1c222d;
+  font-size: 18px;
+  font-weight: 800;
+  line-height: 20px;
+}
+
+a {
+  text-decoration: none;
+}
+
+.container {
+  width: 70vw;
+  padding: 1em 0;
+  margin: 0 auto;
+}
+
+
+@import 'partials/header';
+@import 'partials/main-content';
+@import 'partials/footer';
+
+@import 'partials/media';
